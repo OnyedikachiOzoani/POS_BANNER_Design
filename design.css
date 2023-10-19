@@ -1,0 +1,375 @@
+/**
+ * 320 × 512
+ *
+ * @format
+ */
+
+body {
+	width: 100vw;
+	height: 100vh;
+	border: 2px solid blue;
+	margin: 0px;
+	padding: 0px;
+	padding-top: 3vh;
+}
+
+@font-face {
+	font-family: tusker-grotesk;
+	src: url(fonts/tusker-grotesk-5700-bold.ttf);
+}
+@font-face {
+	font-family: made_tommy_regular;
+	src: url(fonts/MADE_TOMMY_Regular_PERSONAL_USE.otf);
+}
+@font-face {
+	font-family: Acme_Gothic_Black;
+	src: url(fonts/Acme_Gothic_Black.otf);
+}
+
+div {
+	border: 2px solid red; /*
+    background-image: url(images/background.jpg); */
+	background-color: white;
+	background-size: cover;
+	background-position: center;
+	width: calc(79px * 3.7);
+	height: calc(128px * 3.7);
+	margin: auto;
+	padding: 0px;
+	position: relative;
+}
+/*
+header {
+    position: relative;
+    z-index: 7;
+} */
+
+section {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	max-width: 100%;
+}
+
+img {
+	width: 50%;
+	height: auto;
+	margin: 0px;
+	padding: 0px;
+	border: none;
+}
+
+p {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+	width: 50%;
+}
+
+span {
+	border: none;
+}
+
+footer {
+	border: none;
+	width: 100%;
+	background-color: #de000d;
+}
+
+div header p#logo {
+	border: none;
+	width: 75%;
+	height: calc(347 / 1540 * 75 / 100 * 79px * 3.7);
+	margin: 0px;
+	position: absolute;
+	left: 25%;
+	top: calc(1% / 16);
+	z-index: 7;
+}
+div header p#logo img {
+	border: none;
+	width: 100%;
+	height: auto;
+}
+
+div header p#highlighter {
+	border: none;
+	color: black;
+	font-family: tusker-grotesk;
+	text-align: left;
+	width: 35%;
+	height: 27%;
+	padding: 0px;
+	position: absolute;
+	top: 4.5%;
+	left: 2%;
+	z-index: 6;
+}
+div header p#highlighter span#pos {
+	color: #de000d;
+	font-size: 52px;
+	position: relative;
+	bottom: 10px;
+}
+div header p#highlighter span#smaller {
+	font-size: 18.5px;
+	position: relative;
+	bottom: 27px;
+	left: 1px;
+}
+div header p#highlighter span#here {
+	font-size: 52px;
+	position: relative;
+	bottom: 42px;
+}
+
+div header p#pos-machine {
+	border: none;
+	width: 60%;
+	height: calc(450 / 401 * 60 / 100 * 79px * 3.7);
+	position: absolute;
+	left: 40%;
+	top: 9.5%;
+	z-index: 5;
+}
+div header p#pos-machine img {
+	border-color: darkred;
+	width: 100%;
+	height: auto;
+}
+
+div section#services {
+	border: none;
+	max-height: 60%;
+	position: absolute;
+	top: 31%;
+	z-index: 4;
+}
+div section#services p#services-list {
+	border: none;
+	font-family: tusker-grotesk;
+	white-space: nowrap;
+	letter-spacing: 0.7px;
+	line-height: 15.85px;
+	width: 100%;
+	max-height: 100%;
+}
+div section#services p#services-list span {
+	height: 15px; /*
+    padding-top: 2.5px;
+    padding-bottom: 1px; */
+	padding-right: 2px;
+	display: inline-block;
+	margin: 0px;
+	vertical-align: top;
+}
+div section#services p#services-list span.major-services {
+	-webkit-text-stroke: 1.3px black;
+	font-size: 12px;
+	text-indent: 3px;
+}
+div section#services p#services-list span#deposit {
+	color: #ffffff;
+	background-color: #12a307;
+}
+div section#services p#services-list span#withdraw {
+	color: #09f809;
+	background-color: #dd000c;
+}
+div section#services p#services-list span#transfer {
+	color: #2496ef;
+	background-color: #00a8ff;
+}
+div section#services p#services-list span.minor-services {
+	font-size: 9px;
+	text-indent: 20px;
+}
+div section#services p#services-list span#airtime {
+	color: #fffefd;
+	background-color: #fb2f30;
+}
+div section#services p#services-list span#data {
+	color: #ffffff;
+	background-color: #3fb233;
+}
+div section#services p#services-list span#account {
+	color: #01fe05;
+	background-color: #3349b9;
+}
+div section#services p#services-list span#startimes {
+	color: #010100;
+	background-color: #d4d949;
+}
+div section#services p#services-list span#gotv {
+	color: #ffffff;
+	background-color: #323ea2;
+}
+div section#services p#services-list span#dstv {
+	color: #ffffff;
+	background-color: #3b9e10;
+}
+div section#services p#services-list span#electricity {
+	color: #b31e18;
+	background-color: #fdcd23;
+}
+div section#services p#services-list span#bet {
+	color: #04fb0a;
+	background-color: #2d3faf;
+}
+div section#services p#services-list span.expanded {
+	font-size: 9px;
+	text-indent: 40px;
+	color: #fffefd;
+	background-color: #c44743;
+}
+
+div section#other-services {
+	border: none;
+	font-family: made_tommy_regular;
+	letter-spacing: -0.3px;
+	width: 100%;
+	position: absolute;
+	top: 74.5%;
+	z-index: 3;
+}
+div section#other-services p#highlighter {
+	color: #ffffff;
+	background-color: #de000d;
+	-webkit-text-stroke: 1px #ffffff;
+	text-align: center;
+	padding-top: 1.5px;
+	width: 100%;
+}
+div section#other-services p#sales {
+	width: 100%;
+	font-size: 11px;
+	-webkit-text-stroke: 0.5px #000000;
+	text-align: center;
+}
+div section#other-services p#sales span#dot {
+	display: inline-block;
+	border: none;
+	background-color: black;
+	width: 7px;
+	height: 7px;
+}
+div section#other-services p#networks {
+	border: none;
+	width: 100%;
+	text-align: center;
+	letter-spacing: -3px; /*
+    padding-left: 26%;
+    padding-right: 0%; */
+	position: relative;
+	bottom: 0.5px;
+}
+div section#other-services p#networks img {
+	/*
+    border: 2px solid yellow; */
+	vertical-align: top;
+	width: 13%;
+	height: auto;
+}
+
+div aside#logos section {
+	border: none;
+}
+div aside#logos section#cards {
+	width: 30%;
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	z-index: 2;
+}
+div aside#logos section#cards img {
+	width: 60%;
+	height: auto;
+}
+div aside#logos section#cards img#verve {
+	width: 65%;
+	position: relative;
+	top: 10px;
+	right: 30%;
+}
+div aside#logos section#cards img#visa {
+	width: 62%;
+	position: relative;
+	top: 5px;
+	left: 10px;
+}
+div aside#logos section#cards img#mastercard {
+	width: 75%;
+	position: relative;
+	bottom: 5px;
+	right: 7px;
+}
+
+div aside#logos section#cables {
+	width: 50%;
+	position: absolute;
+	top: 50%;
+	left: 40%;
+	z-index: 2;
+}
+div aside#logos section#cables img {
+	width: 50%;
+	height: auto;
+}
+div aside#logos section#cables img#startimes {
+	width: 100px;
+	height: 120px;
+	position: relative;
+	bottom: 24.5px;
+	left: 20%;
+}
+div aside#logos section#cables img#dstv {
+	position: relative;
+	bottom: 93px;
+	left: 70%;
+}
+div aside#logos section#cables img#gotv {
+	position: relative;
+	bottom: 117px;
+	left: 10%;
+}
+
+div footer#contact {
+	position: absolute;
+	top: 95%;
+	height: 5%;
+	z-index: 1;
+}
+div footer#contact span#phone {
+	vertical-align: bottom;
+	color: #12a407;
+	font-family: Acme_Gothic_Black;
+	font-size: 23px;
+	font-weight: bold;
+	-webkit-text-stroke: 2px #010000;
+	letter-spacing: -1.5px;
+	position: relative;
+	bottom: 1%;
+}
+div footer#contact img#phone-logo {
+	width: 8%;
+	height: auto;
+	vertical-align: bottom;
+	position: relative;
+	right: 0.5%;
+}
+div footer#contact img#contact-numbers {
+	vertical-align: bottom;
+	width: 70%;
+	height: auto;
+	position: relative;
+	bottom: 125%;
+	left: 30%;
+}
+
+div div#background {
+	border: none;
+	background-image: url(images/background.jpg);
+	background-position: center;
+	z-index: 0;
+	opacity: 20%;
+}
